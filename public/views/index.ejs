@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<link href="css/img.css" type="text/css" rel="stylesheet" />
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js" ></script>
+		<script src="js/ejs_production.js"></script>
+	</head>
+	<body>
+		<title>我肚子很餓</title>
+
+		<div class="aaa">你吃啥我就吃啥</div>
+
+	<div class="container-fluid">
+	  <div class="row">
+			<div class="col-md-4"></div>
+		<div class="col-md-4">
+			<div id="usernew">
+					<%- include('form'); %>
+			</div>
+		</div>
+		<div class="col-md-4"></div>
+	</br>
+		<HR width="40%" color="#386150" >
+
+		<div class="col-md-4"></div>
+		<div class="col-md-4">
+			<div id="userinfo">
+				<%- include('persons'); %>
+			</div>
+		</div>
+		<div class="col-md-4"><div id="userupdate"></div></div>
+
+		<script src="js/script.js"></script>
+
+	</div>
+	</div>
+	</body>
+	<footer>
+		 Credit by A6Z.
+	</footer>
+</html>

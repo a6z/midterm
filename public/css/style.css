@@ -1,0 +1,117 @@
+body {
+	font-family: Microsoft JhengHei;
+	margin: 30px;
+	text-align: center;
+}
+
+
+.aaa {
+	margin: 50px;
+	font-size: 40px;
+	text-shadow: 2px 2px 2px #eee;
+	color: #8BB59E;
+}
+
+a {
+	color: #2D4749;
+}
+
+li {
+	margin: 10px;
+}
+
+#userupdate {
+	text-align: left;
+}
+
+	#userinfo {
+		color: #8DC4BD;
+	}
+.name {
+	color: #8DC4BD;
+	display: inline-block;
+	margin: 6px;
+}
+
+.btn-post {
+	margin: 10px;
+	font-size:16px;
+	font-weight:normal;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
+	border:0px solid #ffffff;
+	padding:5px 11px;
+	text-decoration:none;
+	background:-moz-linear-gradient( center top, #d9fcf0 105%, #54614a 0% );
+	background:-ms-linear-gradient( top, #d9fcf0 105%, #54614a 0% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9fcf0', endColorstr='#54614a');
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(105%, #d9fcf0), color-stop(0%, #54614a) );
+	background-color:#d9fcf0;
+	color:#fff;
+	display:inline-block;
+ 	-webkit-box-shadow:inset 23px 37px 0px 50px #588a75;
+ 	-moz-box-shadow:inset 23px 37px 0px 50px #588a75;
+ 	box-shadow:inset 23px 37px 0px 50px #588a75;
+}
+
+.btn-update {
+	margin: 10px;
+	font-size:16px;
+	font-weight:normal;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
+	border:0px solid #ffffff;
+	padding:5px 11px;
+	text-decoration:none;
+	background:-moz-linear-gradient( center top, #d9fcf0 105%, #54614a 0% );
+	background:-ms-linear-gradient( top, #d9fcf0 105%, #54614a 0% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9fcf0', endColorstr='#54614a');
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(105%, #d9fcf0), color-stop(0%, #54614a) );
+	background-color:#d9fcf0;
+	color:#fff;
+	display:inline-block;
+ 	-webkit-box-shadow:inset 23px 37px 0px 50px #588a75;
+ 	-moz-box-shadow:inset 23px 37px 0px 50px #588a75;
+ 	box-shadow:inset 23px 37px 0px 50px #588a75;
+}
+
+.firstname {
+	padding: 0px 5px 0px 5px;
+	border-right: 2px solid  #8BB59E;
+	border-left: 2px solid  #8BB59E;
+	color: #8BB59E;
+	font-size: 20px;
+}
+
+.bbb {
+	margin: 20px;
+	font-size: 28px;
+	text-shadow: 2px 2px 2px #eee;
+	color: #8BB59E;
+}
+
+button {
+	margin-top: 10px;
+}
+
+input {
+	border: none;
+}
+
+ul {
+	list-style-position: outside;
+	list-style: none;
+	padding: 0px;
+}
+footer{
+	margin-top: 50px;
+	color: #fff;
+	text-align: left;
+	padding: 3px;
+	background-color: #8BB59E;
+	height: 30px;
+	width: 100%;
+	position: absolute;
+}
